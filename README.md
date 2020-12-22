@@ -1,33 +1,33 @@
 # US_Weather_History
 
-This dataset contains the data behind the story: [What 12 Months of Record-Setting Temperatures Looks Like Across the US] (https://fivethirtyeight.com/features/what-12-months-of-record-setting-temperatures-looks-like-across-the-u-s/)
+This dataset contains the data behind the story: [What 12 Months of Record-Setting Temperatures Looks Like Across the US](https://fivethirtyeight.com/features/what-12-months-of-record-setting-temperatures-looks-like-across-the-u-s/)
 
-Each file corresponds to US city ICAO airport codes.
+#### Each file corresponds to US city ICAO airport codes.
 
-KCQT - Los Angeles
-KCLT - Charlotte
-KHOU - Houston
-KIND - Indianapolis
-KJAX - Jacksonville
-KMDW - Chicago
-KNYC - New York
-KPHL - Philadelphia
-KPHX - Phoenix
-KSEA - Seattle
+KCQT | Los Angeles
+KCLT | Charlotte
+KHOU | Houston
+KIND | Indianapolis
+KJAX | Jacksonville
+KMDW | Chicago
+KNYC | New York
+KPHL | Philadelphia
+KPHX | Phoenix
+KSEA | Seattle
 
-Source: https://github.com/fivethirtyeight/data/tree/master/us-weather-history
+### Code
 
-License: The data is available under the Creative Commons Attribution 4.0 International License and the code is available under the MIT License. If you find it useful, please let us know.
+### Code file Description
 
-Code
-Code file Description
-wunderground_scraper.py Downloads weather data web pages from Weather Underground
-wunderground_parser.py Parses the weather data from Weather Underground into a flat CSV file
-visualize_weather.py Creates the visualization of the weather data
+wunderground_scraper.py - Downloads weather data web pages from Weather Underground
+wunderground_parser.py - Parses the weather data from Weather Underground into a flat CSV file
+visualize_weather.py - Creates the visualization of the weather data
 
 ### Data
 
-## Column | Description
+Column | Description
+
+---
 
 date | The date of the weather record, formatted YYYY-M-D
 actual_mean_temp | The measured average temperature for that day
@@ -43,4 +43,11 @@ actual_precipitation | The measured amount of rain or snow for that day
 average_precipitation | The average amount of rain or snow on that day since 1880
 record_precipitation | The highest amount of rain or snow on that day since 1880
 
-Source: [Weather Underground] (https://www.wunderground.com/)
+##### Sources:
+
+[Weather Underground](https://www.wunderground.com/)
+https://github.com/fivethirtyeight/data/tree/master/us-weather-history
+
+##### License:
+
+The data is available under the Creative Commons Attribution 4.0 International License and the code is available under the MIT License. If you find it useful, please let us know.
